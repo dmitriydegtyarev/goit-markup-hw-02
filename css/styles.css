@@ -1,12 +1,25 @@
 :root{
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: "Raleway", sans-serif;
   --primary-title-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196F3;
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
-  
+  font-family: var(--main-font);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
 }
 
 /*  */
