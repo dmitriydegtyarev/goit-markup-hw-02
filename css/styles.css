@@ -3,6 +3,7 @@
   --secondary-font: "Raleway", sans-serif;
   --primary-title-color: #212121;
   --primary-text-color: #757575;
+  --the-third-text-color: #FFFFFF;
   --accent-color: #2196F3;
   --main-background-color: #FFFFFF;
   --secondary-background-color: #2F303A;
@@ -29,8 +30,42 @@ body{
 }
 
 /* ===== COMPONENTS ===== */
+.button {
+  color: var(-or);
+  background-color: var();
 
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.button.primary {
+  color: var();
+  background-color: var();
+}
+
+.button.secondary {
+  color: var();
+  background-color: var();
+}
 /* ===== END COMPONENTS ===== */
+
+/* ===== HERO ===== */
+.hero{
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--the-third-text-color);
+}
+
+/* ===== END HERO ===== */
 
 /* ===== PORTFOLIO ===== */
 /* ===== END PORTFOLIO ===== */
