@@ -1,8 +1,8 @@
 :root{
   --main-font: 'Roboto', sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --primary-title-color: #212121;
-  --primary-text-color: #757575;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
   --the-third-text-color: #FFFFFF;
   --accent-color: #2196F3;
   --main-background-color: #FFFFFF;
@@ -17,37 +17,41 @@ body{
   font-weight: 700;
 }
 
-.list {
+.list{
   list-style: none;
 }
 
-.link {
+.link{
   text-decoration: none;
 }
 
-.address {
+.address{
   font-style: normal;
 }
 
 /* ===== COMPONENTS ===== */
-.button {
-  color: var(-or);
-  background-color: var();
+.button-hero{
+  background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--main-background-color);
+}
 
+.button-portfolio{
+  color: var(--primary-text-color);
+  background-color: var(--the-third-background-color);
   font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
-.button.primary {
-  color: var();
-  background-color: var();
-}
-
-.button.secondary {
-  color: var();
-  background-color: var();
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--accent-color);
+  color: var(--the-third-text-color);
 }
 /* ===== END COMPONENTS ===== */
 
@@ -68,4 +72,17 @@ body{
 /* ===== END HERO ===== */
 
 /* ===== PORTFOLIO ===== */
+.portfolio-title{
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-subtitle{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--secondary-text-color);
+}
 /* ===== END PORTFOLIO ===== */
