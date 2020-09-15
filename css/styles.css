@@ -30,6 +30,16 @@ body{
 }
 
 /* ===== COMPONENTS ===== */
+.logo{
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+  text-decoration: none;
+}
+
 .button-hero{
   background-color: var(--accent-color);
   font-size: 16px;
@@ -56,6 +66,10 @@ body{
 /* ===== END COMPONENTS ===== */
 
 /* ===== HEADER ===== */
+.header{
+  background-color: var(--main-background-color);
+}
+
 .site-nav .link{
   color: var(--primary-text-color);
   font-weight: 500;
@@ -99,6 +113,26 @@ body{
   color: var(--the-third-text-color);
 }
 /* ===== END HERO ===== */
+
+/* ===== ABOUT US ===== */
+.about{
+  background-color: var(--main-background-color);
+}
+
+.about-subtitle{
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.about-idea{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+/* ===== END ABOUT US ===== */
 
 /* ===== WHAT ARE WE DOING ===== */
 .works{
@@ -158,6 +192,10 @@ body{
 /* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO ===== */
+portfolio{
+  background-color: var(--main-background-color);
+}
+
 .portfolio-title{
   font-size: 18px;
   line-height: 2;
