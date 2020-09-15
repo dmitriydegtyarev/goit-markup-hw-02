@@ -4,10 +4,16 @@
   --primary-title-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196F3;
+  --main-background-color: #FFFFFF;
+  --secondary-background-color: #2F303A;
+  --the-third-background-color: #F5F4FA;
 }
 
 body{
   font-family: var(--main-font);
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-weight: 700;
 }
 
 .list {
@@ -22,4 +28,9 @@ body{
   font-style: normal;
 }
 
-/*  */
+/* ===== COMPONENTS ===== */
+
+/* ===== END COMPONENTS ===== */
+
+/* ===== PORTFOLIO ===== */
+/* ===== END PORTFOLIO ===== */
