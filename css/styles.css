@@ -40,6 +40,10 @@ body{
   text-decoration: none;
 }
 
+.logo-footer{
+  color: var(--the-third-text-color);
+}
+
 .button-hero{
   background-color: var(--accent-color);
   font-size: 16px;
@@ -136,7 +140,7 @@ body{
 
 /* ===== WHAT ARE WE DOING ===== */
 .works{
-  background-color: var{var(--main-background-color)};
+  background-color: var(--main-background-color);
 }
 
 .works .title{
