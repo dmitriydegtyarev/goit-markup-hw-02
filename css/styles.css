@@ -90,7 +90,7 @@ body{
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -149,7 +149,7 @@ body{
 
 .works .title{
   font-size: 36px;
-  line-height: 1.167x;
+  line-height: 1.167;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -190,7 +190,7 @@ body{
 .footer .link{
   font-weight: 400;  
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
