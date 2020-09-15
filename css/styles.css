@@ -100,6 +100,46 @@ body{
 }
 /* ===== END HERO ===== */
 
+/* ===== WHAT ARE WE DOING ===== */
+.works{
+  background-color: var{var(--main-background-color)};
+}
+
+.works .title{
+  font-size: 36px;
+  line-height: 1.167x;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+/* ===== END WHAT ARE WE DOING ===== */
+
+/* ===== OUR TEAM ===== */
+.team{
+  background-color: var(--the-third-background-color);
+}
+
+.team .title{
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team-subtitle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+
+.team-position{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-text-color);
+}
+/* ===== END OUR TEAM ===== */
+
 /* ===== FOOTER ===== */
 .footer{
   background-color: var(--secondary-background-color);
@@ -115,7 +155,6 @@ body{
 .footer .link.map{
   color: var(--the-third-text-color);
 }
-
 /* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO ===== */
