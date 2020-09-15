@@ -44,6 +44,10 @@ body{
   color: var(--the-third-text-color);
 }
 
+.header-logo{
+  color: #000000;
+}
+
 .button-hero{
   background-color: var(--accent-color);
   font-size: 16px;
