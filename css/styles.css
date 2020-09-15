@@ -55,6 +55,36 @@ body{
 }
 /* ===== END COMPONENTS ===== */
 
+/* ===== HEADER ===== */
+.site-nav .link{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.address-link .link{
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.address-link .link:hover,
+.address-link .link:focus{
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.site-nav .link.current{
+  color: var(--accent-color);
+}
+/* ===== END HEADER ===== */
+
 /* ===== HERO ===== */
 .hero{
   background-color: var(--secondary-background-color);
@@ -68,8 +98,25 @@ body{
   letter-spacing: 0.06em;
   color: var(--the-third-text-color);
 }
-
 /* ===== END HERO ===== */
+
+/* ===== FOOTER ===== */
+.footer{
+  background-color: var(--secondary-background-color);
+}
+
+.footer .link{
+  font-weight: 400;  
+  font-size: 14px;
+  line-height: 1,71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link.map{
+  color: var(--the-third-text-color);
+}
+
+/* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO ===== */
 .portfolio-title{
